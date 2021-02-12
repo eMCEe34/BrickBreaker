@@ -1,4 +1,5 @@
 package minitennis;
+
 import javax.swing.*;
 import java.awt.Color;
 import java.awt.Font;
@@ -94,7 +95,7 @@ public class Main extends JPanel {
 	    //The game object is placed inside the frame
 	    frame.add(game);
 	    //Size of the window(frame) is 300x300
-	    frame.setSize(300,300);
+	    frame.setSize(480,480);
 	    //The game window is visible
 	    frame.setVisible(true);
 	    //Able to close the game and stop all processes
