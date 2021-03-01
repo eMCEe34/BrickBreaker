@@ -15,6 +15,7 @@ public class Main extends JPanel {
 	Ball ball = new Ball(this);
 	//Creates racquet object
 	Racquet racquet = new Racquet(this);
+	Bricks bricks = new Bricks(this);
 	int speed = 1;
 
 	//Getter for speed and score (same value)
@@ -69,6 +70,7 @@ public class Main extends JPanel {
 		ball.paint(g2d);
 		//Calls the paint function on the racquet and passes in g2d
 		racquet.paint(g2d);
+		bricks.paint(g2d);
 
 		//Sets font color to gray
 		g2d.setColor(Color.GRAY);
